@@ -1,6 +1,6 @@
-package com.mina.studentservice.controller;
+package com.mina.studentservice.web.controller;
 
-import com.mina.studentservice.service.LoginService;
+import com.mina.studentservice.web.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

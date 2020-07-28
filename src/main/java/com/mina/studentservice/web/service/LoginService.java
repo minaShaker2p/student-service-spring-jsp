@@ -1,4 +1,4 @@
-package com.mina.studentservice.service;
+package com.mina.studentservice.web.service;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class LoginService {
 
     public boolean validateUser(String userId, String password) {
-        return userId.equalsIgnoreCase("admin")
-                && password.equalsIgnoreCase("admin");
+        return userId.equalsIgnoreCase("test")
+                && password.equalsIgnoreCase("test1234");
     }
 }
